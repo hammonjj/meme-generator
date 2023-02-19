@@ -109,7 +109,7 @@ const Details = () => {
                 setBottomText(e.target.value);
               }} />
           </label>
-          {renderThirdText ? (<label htmlFor="thirdText">Third Text
+          {renderThirdText ? (<label htmlFor="thirdText">
             <input
               type="text"
               className="search-input"
